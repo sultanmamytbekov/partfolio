@@ -1,0 +1,58 @@
+#admin {
+  .admin {
+    img{
+        width: 477px;
+        height: 477px;
+        border-radius: 50%;
+    }
+    &-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+      button {
+        width: 256px;
+        height: 81px;
+        border: none;
+        border-radius: 50px;
+        background: #27ae60;
+        color: #fff;
+        font-size: 32px;
+        font-weight: 600;
+      }
+    }
+    &-inputs {
+        display: flex;  
+        flex-wrap: wrap;
+        width: 500px;
+        gap: 80px;
+      .in1 {
+        width: 302px;
+        height: 62px;
+        border-radius: 34px;
+        background: #27ae60;
+        color: #675d5d;
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 2.4px;
+      }
+      .in2 {
+        outline: none;
+        width: 493px;
+        height: 62px;
+        border-radius: 34px;
+        background: #27ae60;
+        border: none;
+        color: #675d5d;
+        font-size: 24px;
+        font-weight: 500;
+        padding-left: 50px;
+      }
+    }
+  }
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
